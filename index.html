@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тренажер "Компьютерная алгебра"</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Иконки правильных и неправильных ответов-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+ 
+  <!--Шрифты-->  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--Главная страница-->  
+    
+<div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">Электронный тренажер "Компьютерная алгебра" </h1>
+            <h2 class="intro__subtitle">Проверь свои знания!</h2>
+    
+     
+    
+    <!--Кнопка начать тест-->
+    <div class="start_btn"><button>Начать тест </button></div>
+    
+
+    <!-- Правила -->
+    <div class="info_box">
+        <div class="info-title"><span>Правила</span></div>
+        <div class="info-list">
+            <div class="info">1. У вас есть всего лишь <span>30 cекунд</span> на каждый вопрос.</div>
+            <div class="info">2. Как только вы выберете ответ, его нельзя будет изменить.</div>
+            <div class="info">3. Вы не можете выбрать другой вариант ответа, когда время уже истечет.</div>
+            <div class="info">4. Вы не сможете выйти из тестирования пока не закончите его.</div>
+            <div class="info">5. Вы получите баллы на основе ваших правильных ответов.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Закрыть</button>
+            <button class="restart">Продолжить</button>
+        </div>
+    </div>
+
+    <!-- Тест -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Компьютерная алгебра</div>
+            <div class="timer">
+                <div class="time_left_txt">Время</div>
+                <div class="timer_sec">30</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Вопрос JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Параметры JavaScript -->
+            </div>
+        </section>
+
+        <!-- Нижний колонтитул Теста -->
+        <footer>
+            <div class="total_que">
+                <!-- Число вопросов JavaScript -->
+            </div>
+            <button class="next_btn">Далее</button>
+        </footer>
+    </div>
+
+    <!-- Результат -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Вы завершили тест!</div>
+        <div class="score_text">
+            <!-- Результат JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Начать сначала</button>
+            <button class="quit">Выйти</button>
+        </div>
+    </div>
+      </div>
+        </div>
+    </div>
+    <!-- Вопросы и варианты ответа JavaScript -->
+    <script src="js/questions.js"></script>
+
+    <!-- Все основные коды -->
+    <script src="js/script.js"></script>
+
+    
+</body>
+</html>
